@@ -1,0 +1,101 @@
+body{
+  margin: 0;
+  color: hsl(360, 100%, 100%);
+  font: 400 1em/1.5 "Berlin Sans FB", "Arial", sans-serif;
+}
+header, main, footer{
+  padding: 10px 0;
+}
+header{
+  background: linear-gradient(hsl(122, 45%, 17%), hsl(122, 48%, 52%), hsl(127, 29%, 39%), hsl(122, 45%, 17%));
+}
+footer{
+  clear: left;
+  background: linear-gradient(hsl(122, 45%, 17%), hsl(122, 48%, 52%), hsl(127, 29%, 39%), hsl(122, 45%, 17%));
+  color: hsl(360, 100%, 100%);
+  text-align: center;
+}
+nav{
+  position: sticky;
+  top: 0;
+  font-weight: 600;
+  z-index: 1;
+}
+nav ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 5px 0;
+}
+nav ul>li{
+  background: hsl(127, 100%, 63%);
+  float: left;
+  width: 16.6666666666%;
+  text-align: center;
+}
+nav ul>li>a:hover{
+  background: hsl(122, 45%, 17%);
+  color: hsl(360, 100%, 100%);
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+}
+nav ul>li>a:active{
+  background: hsl(360, 100%, 100%);
+  color: hsl(122, 45%, 17%);
+  transform: scale(1.1);
+  transition: all 1s ease-out;
+}
+nav ul>li:first-child{
+  background: hsl(360, 100%, 100%);
+  color: hsl(122, 45%, 17%);
+}
+h1, h2, h3{
+  font-family: "Bahnschrift", "Helvetica", sans-serif;
+}
+nav ul>li>a{
+  color: hsl(122, 45%, 17%);
+  text-decoration: none;
+  display: block;
+}
+ul.coltwo{
+  column-count: 2;
+}
+a{
+  color: hsl(360, 100%, 100%);
+  text-decoration: none;
+}
+header > a img:hover{
+  transform: scale(1.1) translate(20px);
+  transition: all 1s ease-out;
+}
+a:visited{
+  color: hsl(250, 48%, 52%);
+}
+p a{
+  font-weight: 600;
+}
+p a:active{
+  color: hsl(122, 48%, 52%);
+}
+p a:link{
+  text-decoration: underline;
+}
+h2+p{
+  font-style: italic;
+}
+.isa, .dalawa, .tatlo{
+  float: left;
+  width: 31%;
+  margin: 5px 0 5px 0.5%;
+  padding: 1%;
+  color:
+}
+.isa{
+  background: hsl(127, 60%, 50%);
+  margin-left: 0;
+}
+.dalawa{
+  background: hsl(122, 48%, 52%);
+}
+.tatlo{
+  background: hsl(122, 45%, 17%);
+}
